@@ -30,9 +30,12 @@ export default function HeroSection() {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam .
+            Results-driven Mechatronics Engineering graduate with a focus on web
+            development, specializing in React. Adept at applying engineering
+            principles to create dynamic and efficient web solutions. Eager to
+            contribute strong analytical and problemsolving skills to a
+            React-based development role, combining a robust engineering
+            background with a passion for innovative coding practices.
           </p>
           <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-600 hover:bg-slate-200 text-white">
             Hire me
