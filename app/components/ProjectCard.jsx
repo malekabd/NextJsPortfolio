@@ -1,13 +1,7 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 
-export default function ProjectCard({
-  imgUrl,
-  title,
-  description,
-  gitUrl,
-  previewUrl,
-}) {
+function ProjectCard({ imgUrl, title, description, gitUrl, previewUrl }) {
   return (
     <div>
       <div
@@ -36,3 +30,4 @@ export default function ProjectCard({
     </div>
   );
 }
+export default ProjectCard;
