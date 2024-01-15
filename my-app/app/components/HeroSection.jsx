@@ -3,12 +3,10 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-
 export default function HeroSection() {
   const handleDownloadCV = () => {
-
     const githubLink =
-      "https://github.com/malekabd/cv/blob/main/CV%20.pdf";
+      "https://github.https://github.com/malekabd/cv/blob/main/CV.pdf/malekabd/cv/blob/main/CV%20.pdf";
 
     window.open(githubLink, "_blank");
   };
