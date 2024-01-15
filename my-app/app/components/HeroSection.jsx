@@ -2,12 +2,19 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
-import Link from "next/link";
+
 
 export default function HeroSection() {
+  const handleDownloadCV = () => {
+
+    const githubLink =
+      "https://github.com/malekabd/cv/blob/main/CV%20.pdf";
+
+    window.open(githubLink, "_blank");
+  };
+
   return (
-    <section>
+    <section className="mt-24">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -19,7 +26,7 @@ export default function HeroSection() {
               sequence={[
                 " Eng.Malek",
                 1000,
-                "Mechatronices Engineer",
+                "Mechatronices ",
                 1000,
                 "Web Developer",
                 1000,
@@ -37,11 +44,13 @@ export default function HeroSection() {
             React-based development role, combining a robust engineering
             background with a passion for innovative coding practices.
           </p>
-          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-600 hover:bg-slate-200 text-white">
+          {/*  <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-600 hover:bg-slate-200 text-white">
             Hire me
-          </button>
+          </button> */}
           <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-700 to-blue-900 hover:bg-slate-800 text-white  mt-3">
-            <span className="block  rounded-full ">Download CV</span>
+            <span className="block  rounded-full " onClick={handleDownloadCV}>
+              Download CV
+            </span>
           </button>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
@@ -49,7 +58,7 @@ export default function HeroSection() {
             <Image
               src="/images/hero-image.png"
               alt="hero Image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute rounded-full bg-cover transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
             />
