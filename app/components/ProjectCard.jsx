@@ -1,7 +1,6 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 
-
 export default function ProjectCard({
   imgUrl,
   title,
