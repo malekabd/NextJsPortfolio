@@ -5,8 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
   const handleCV = () => {
-    const githubLink =
-      "https://github.https://github.com/malekabd/cv/blob/main/CV.pdf/malekabd/cv/blob/main/CV%20.pdf";
+    const githubLink = "https://github.com/malekabd/cv/blob/main/CV.pdf";
 
     window.open(githubLink, "_blank");
   };
