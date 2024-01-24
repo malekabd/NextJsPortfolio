@@ -7,7 +7,6 @@ const projectsData = [
     title: "Training Center Website",
     description: "",
     image: "/images/projects/TrainingCenter.png",
-
     gitUrl: "https://github.com/malekabd/Masaq.git",
     previewUrl: "https://trainingcenter.onrender.com/",
   },
@@ -18,6 +17,15 @@ const projectsData = [
     image: "/images/projects/MernEstate.png",
     gitUrl: "https://github.com/malekabd/MERN-FULL-STACK-PROJECT.git",
     previewUrl: "https://mern-estate-kfbm.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "MERN Blog Website",
+    description: "",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg",
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 export default function projectsSection() {

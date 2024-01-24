@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
-  const handleDownloadCV = () => {
+  const handleCV = () => {
     const githubLink =
       "https://github.https://github.com/malekabd/cv/blob/main/CV.pdf/malekabd/cv/blob/main/CV%20.pdf";
 
@@ -38,16 +38,14 @@ export default function HeroSection() {
             Results-driven Mechatronics Engineering graduate with a focus on web
             development, specializing in React. Adept at applying engineering
             principles to create dynamic and efficient web solutions. Eager to
-            contribute strong analytical and problemsolving skills to a
+            contribute strong analytical and problem solving skills to a
             React-based development role, combining a robust engineering
             background with a passion for innovative coding practices.
           </p>
-          {/*  <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-600 to-slate-600 hover:bg-slate-200 text-white">
-            Hire me
-          </button> */}
+
           <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-blue-700 to-blue-900 hover:bg-slate-800 text-white  mt-3">
-            <span className="block  rounded-full " onClick={handleDownloadCV}>
-              Download CV
+            <span className="block  rounded-full " onClick={handleCV}>
+              Check CV
             </span>
           </button>
         </div>
