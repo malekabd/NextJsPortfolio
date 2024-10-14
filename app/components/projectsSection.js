@@ -18,15 +18,7 @@ const projectsData = [
     gitUrl: "https://github.com/malekabd/MERN-FULL-STACK-PROJECT.git",
     previewUrl: "https://mern-estate-kfbm.onrender.com/",
   },
-  {
-    id: 3,
-    title: "MERN Blog Website",
-    description: "",
-    image:
-      "https://miro.medium.com/v2/resize:fit:1024/1*mwXHpdt6CTQHxH78dwc6NA.jpeg",
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
 ];
 export default function projectsSection() {
   return (
@@ -35,7 +27,7 @@ export default function projectsSection() {
         My Projects
       </h2>
 
-      <ul className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul className="grid md:grid-cols-2 gap-8 md:gap-12">
         {projectsData.map((project) => (
           <ProjectCard
             key={project.id}
